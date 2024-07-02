@@ -1,0 +1,8 @@
+const workList = [
+   { title: "Memahami Kebutuhan Klien", description: "Kami memulai dengan memahami secara menyeluruh kebutuhan klien kami, tantangan operasional, Melalui komunikasi terbuka dan kolaborasi, kami memperoleh wawasan berharga yang memungkinkan kami menyesuaikan solusi pengadaan kami dengan kebutuhan spesifik mereka." },
+   { title: "Jaringan Pemasok yang Luas", description: "Dengan jaringan luas yang terdiri dari pemasok dan produsen tepercaya di seluruh dunia, kami memiliki akses ke beragam mesin tembakau, suku cadang, dan komponen pelengkap berkualitas tinggi. Hubungan kami dengan pemasok ini memungkinkan kami menegosiasikan persyaratan yang menguntungkan dan memastikan pengiriman produk tepat waktu." },
+   { title: "Komunikasi Transparan", description: "Transparansi dan komunikasi terbuka adalah landasan etos kerja kami. Kami terus memberikan informasi kepada klien kami di setiap langkah proses pengadaan, memberikan pembaruan berkala mengenai status pesanan, jadwal pengiriman, dan perkembangan apa pun yang relevan. Hal ini memastikan bahwa klien kami tetap mendapat informasi dan pemberdayaan sepanjang proses." },
+   { title: "Kualitas Asuransi", description: "Di CV UD.BAROKAH, jaminan kualitas tidak dapat ditawar. Kami melakukan inspeksi menyeluruh dan pemeriksaan kualitas pada semua produk untuk memastikan bahwa produk tersebut memenuhi spesifikasi dan standar klien kami. Komitmen kami terhadap kualitas melampaui produk itu sendiri hingga mencakup keseluruhan proses pengadaan, mulai dari sumber awal hingga pengiriman akhir." },
+];
+
+export default workList;

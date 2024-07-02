@@ -1,4 +1,4 @@
-import HeroImage from '../../../assets/image/hero.png'
+import logo from '../../../assets/image/logo.png'
 
 const hero = () => {
   return (
@@ -9,7 +9,7 @@ const hero = () => {
                yang dirancang untuk meningkatkan efisiensidan kinerja produksi Anda.
                Temukan solusi terbaik untuk kebutuhan industri tembakau Anda di sini.</p>
          </div>
-         <img src={HeroImage} className='md:max-xl:w-1/2 xs:max-md:w-4/5' alt="masin rokok" />
+         <img src={logo} className='md:max-xl:w-1/2 xs:max-md:w-4/5 w-1/2' alt="masin rokok" />
     </div>
   )
 }
