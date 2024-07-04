@@ -1,4 +1,5 @@
 import Machine from "./machine"
+import Materials from "./material"
 import Spareparts from "./spareparts"
 
 const product = () => {
@@ -6,6 +7,7 @@ const product = () => {
     <div>
       <Machine />
       <Spareparts />
+      <Materials />
     </div>
   )
 }

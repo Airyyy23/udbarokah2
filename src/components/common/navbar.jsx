@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="2xl:px-56 xl:px-44 lg:px-32 md:px-20 xs:px-10 w-screen flex justify-between items-center py-6">
+    <nav className="2xl:px-56 xl:px-44 lg:px-32 md:px-20 xs:px-10 w-screen flex justify-between items-center py-6 sticky top-0 bg-[#f5f5f5] shadow-lg">
       <img src={logo} alt="Logo" className="w-40" />
 
       <div className={`md:static absolute duration-500 ease-in-out bg-[#f5f5f5] md:min-h-fit min-h-[40vh] w-full md:w-auto top-[80px] flex items-center justify-center py-5 shadow-md md:shadow-none ${isOpen? "left-0" : "left-[-100%]"}`}>

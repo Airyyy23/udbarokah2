@@ -8,6 +8,7 @@ import NotFound from './pages/error/notFound';
 import MK9 from './pages/detail/mk9'
 import MK8 from './pages/detail/mk8'
 import Material from './pages/detail/material';
+import Spareparts from './pages/detail/spareparts';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/detail-mk9" element={<MK9 />} />
             <Route path="/detail-mk8" element={<MK8 />} />
             <Route path="/detail-material" element={<Material />} />
+            <Route path="/detail-spareparts" element={<Spareparts />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
